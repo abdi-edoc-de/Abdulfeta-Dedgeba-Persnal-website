@@ -6,15 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <table height="100%"  width="100%" >
+    <table border="3" height="100%"  width="100%" >
         <tr >
-            <table  bordercolor="Black"   width="100%" background="/image/b.jpg"  no-reapet>
+            <table  bordercolor="Black"   width="100%" background="/image/b.jpg"  no-reapet id="about">
                 <tr  >
                     <td width="400">
-                        <a href="">ABOUT </a> 	&nbsp; 	&nbsp;&nbsp;	&nbsp;
-                        <a href="">SCHOOL </a> 	&nbsp; 	&nbsp;&nbsp;	&nbsp;
+                        <a href="#about">ABOUT </a> 	&nbsp; 	&nbsp;&nbsp;	&nbsp;
+                        <a href="#music">MUSIC </a> 	&nbsp; 	&nbsp;&nbsp;	&nbsp;
+                        <a href="#school">SCHOOL </a> 	&nbsp; 	&nbsp;&nbsp;	&nbsp;
                         <a href=""> GALARY</a>  	&nbsp;	&nbsp;&nbsp;	&nbsp;
-                        <a href="">CONTACT</a> &nbsp;	&nbsp;&nbsp;	&nbsp;
+                        <a href="#contact">CONTACT</a> &nbsp;	&nbsp;&nbsp;	&nbsp;
                         
                     </td>
                     <td> 
@@ -63,8 +64,8 @@
         </td>
             
         </tr>
-        <tr align="center" bgcolor="Black">
-            <table background="https://i.pinimg.com/originals/f1/32/15/f13215a3276ab6f25339d39221caa4aa.jpg"  width="100%"   align="center">
+        <tr align="center" bgcolor="Black" >
+            <table background="https://i.pinimg.com/originals/f1/32/15/f13215a3276ab6f25339d39221caa4aa.jpg"  width="100%"   align="center" id="music">
                 <tr>
                     <td colspan="3" align="center">
                         <h1> My Taste Of Music</h1>
@@ -113,25 +114,26 @@
         </tr>
         <tr>
             <td >
-                <table bordercolor="Black" cellpadding="0" cellspaceing="0"   bgcolor="#ff7f27">
+                <table id="school" bordercolor="Black" cellpadding="0" cellspaceing="0" border="2"   bgcolor="#ff7f27">
                 <tr>
-                    <td align="center" >
-                        <img  width="110%" src="/image/n.jpg" alt="">
+                    <td align="left" width="50%"  >
+                        <img  width="100%" src="/image/n.jpg" alt="">
                     </td> 
                     <td align="center">
-                        <h1>-I'm me,nothing more , nothing less and that is enough- <br>
-                            -Harpreet Dmayal-
+                        <h1>
+                            -In school, you're taught a lesson and then given a test. <br> In life, you're given a test that teaches you a lesson.- <br>
+                            -Tom Bodett-
                             </h1>
                             <br><br>
                             <h3>
-                            I took my primary and secondary education at Nafyad School located at the center of Adama <br> 
-                            or commonly  known as Nazreth.Nafyad School is a branch of the well-known Rift Valley University.<br>
+                            I took my primary and secondary education at Nafyad School located at the center of Adama 
+                            or <br>  commonly  known as Nazreth.Nafyad School is a branch of the well-known Rift Valley University.<br>
                             Nafyadians are renowned for their amazing skills at playing soccer. It has won regional soccer <br>
                             competitions several times, among which is last year’s championship. I am not a very good soccer <br>
                             player but I can confidently say that I was one of the few students who achieved to integrate both<br>
                             academic and social life in the school. My school has been one of the significant places where <br>
                             I got the opportunity to grow as an individual and it’s with a hearty nostalgia that I miss it.<br>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br>
                             </h3>
                             
                         </td>
@@ -141,7 +143,59 @@
         </td>
 
         </tr>
-        <tr></tr>
+        <tr bgcolor="#ff7f27" id="contact">
+            <td >
+                Contact Me
+                Alternatives to Smoke Signals
+                Hey there – thanks for visiting! I’m stoked that you’d like to get in touch with me.
+                
+                However, because of my commitment to spending the majority of my time working deeply, and because of the volume of email I already receive, email isn’t the best way to contact me if you have a question or are reaching out for something that isn’t business-related.
+                
+                Here are a couple of better options:
+                
+                Got a question? Ask it in the College Info Geek Community.
+                Want to say hi? Hit me up on Twitter or Instagram.
+                If you’re reaching out to talk about speaking, business, or something media-related, you can use this form and I’ll get back to you as soon as I can
+            </td>
+            <td border="3">
+                <form method="POST" action="mailto:se.abdulfeta.dedgba@gmail.com" enctype="utf-8">
+                    <table width="100%" border="3" cellspacing=10 bgcolor="#ff7f27"> 
+                        <tr>
+                            <td><label for="fName"> First Name</label></td>
+                         <td><input type="text" name="fName" id="fName" required   pattern="[a-z][A-Z]{1-15}" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lName"> Last  Name</label></td>
+                            <td><input type="text" name="lName" id="lName"  required    pattern="[a-z][A-Z]{1-15}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email" enctype="utf-8"> email</label></td>
+                            <td><input type="email" name="email" id="email"  required    ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="detail"> detail</label></td>
+                            <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <td><label for="Password"> Password</label></td>
+                        <td><input type="password" name="lName" id="password"  required   pattern="[A-Z][a-z][0-9]{4-8}"></td>
+                        <tr>
+                            <td><select name="country" id="">
+                                  <option value="Ethiopia">Ethiopia</option>
+                                  <option value="Kenya">Kenya</option>
+                                  <option value="Ertria">Ertria</option>
+                                  <option value="Sudan">Sudan</option>
+                                  
+                              </select></td>                            
+                        </tr>
+                        <tr>
+                            <td><input type="Submit" value="Submit">
+                            </td>
+                           </tr>                               
+                    </table>             
+              </form>
+
+            </td>
+        </tr>
         <tr></tr>
         <tr></tr>
     </table>
