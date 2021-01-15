@@ -4,9 +4,10 @@
   }
   
   body {
-    background-color: #fff;
+    
     font-family: 'proximanova';
   }
+  
 
 .navbar{
     padding:.8rem
@@ -49,8 +50,8 @@
 .carousel-caption{
     font-size: 300%;
     text-shadow: 1px 1px 1px 10px #000;
-    font-weight: bold;
-    top: 40%;
+    font-weight: 1000;
+    top: 50%;
 }
 .par{
     font-size: 20px;
