@@ -7,8 +7,12 @@
     
     font-family: 'proximanova';
   }
-  
-
+#img{
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 50% 72%, 0 66%);
+}
+.card{
+    border: none;
+}
 .navbar{
     padding:.8rem
 
@@ -57,6 +61,18 @@
     font-size: 20px;
     line-height:32px ;
 }
+
+
+
+#footer {
+    background:  #1b252f;
+    height: 300px;
+    clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0 100%, 0 0);
+
+}
+
+
+
 @media(max-width:576px){
 
 .carousel-caption{
