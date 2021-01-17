@@ -2,17 +2,31 @@
     font-family: proximanova;
     src: url("./font/proxima_ssv/ProximaNova-Regular.otf") format("opentype");
   }
+  @font-face {
+    font-family: proximanova-bold;
+    src: url("./font/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf") format("opentype");
+  }
   
   body {
     
     font-family: 'proximanova';
   }
 #img{
-    clip-path: polygon(0 0, 100% 0, 100% 66%, 50% 72%, 0 66%);
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 76%, 0 67%);
 }
 .card{
     border: none;
 }
+#h1{
+    font-family: "proximanova-bold";
+    font-weight: 999;
+    font-size: 4.063em;
+    letter-spacing: 2.7px;
+    color: black;
+}
+#h1.lighter {
+    color: -50%;  
+  }
 .navbar{
     padding:.8rem
 
