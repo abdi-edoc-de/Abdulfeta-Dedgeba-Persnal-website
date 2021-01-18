@@ -39,6 +39,9 @@
     font-size: 90%;
     color: black;
 }
+#dropD{
+    padding-right: 25%;
+}
 .navbar-brand{
     font-size: 1.4em !important; 
 }
@@ -79,10 +82,7 @@
     font-weight: 1000;
     top: 50%;
 }
-.par{
-    font-size: 20px;
-    line-height:32px ;
-}
+
 #footer-icon{
     color: aliceblue;
     font-size: 1.500em;
@@ -120,6 +120,12 @@
 #con-foot{
     position: relative;
 }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    
+  }
 
 
 
@@ -131,17 +137,91 @@
 #img1{
     padding: 5%;
     padding-top: 7%;
+    padding-left: 4%;
 }
 #cont{
     margin-top: 7%;
 }
-#img2{
-    padding-top: 5.5%;
+/* #img2{
+    padding-top: 3%;
     
-}
+} */
 #par2{
-    padding-left: 5%;
+    padding-left: 4%;
+    font-size: 1.250em;
 }
+#parCard{
+    padding-top: 3% ;
+    padding-bottom: 3% ;
+    line-height: 30.6px;
+}
+#card{
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+
+
+#img2{
+
+    margin: 0;
+    padding: 0;
+    /* padding-top: 1%; */
+    font-family: 'Open Sans',sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .skills{
+    width: 100%;
+    padding-left: 3%;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+   
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color: #0fbcf9;
+    border-radius: 8px;
+    width: 0;
+    transition: 10s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
 
 
 @media(max-width:576px){
