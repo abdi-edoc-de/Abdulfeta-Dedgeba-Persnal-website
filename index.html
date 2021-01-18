@@ -26,12 +26,11 @@
             </li> -->
 
             <li id="full" class="nav-item dropdown active  mx-0 p-2">
-              <a id="linkH" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a id="linkH" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" aria-expanded="false">
                 <i   class="fas fa-user-secret "></i>  ABOUT <span class="sr-only">(current)</span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">About</a></li>
-                <li><a class="dropdown-item" href="#"><p id="dropD">What i'm doing now </p><p>.</p> </a></li>
+                <li><a class="dropdown-item" href="#">What i'm doing now  </a></li>
                 <li><a class="dropdown-item" href="#"></a></li>
                 <li><a class="dropdown-item" href="#"></a></li>
                 <li><a class="dropdown-item" href="#"></a></li>
@@ -100,7 +99,7 @@
    -->
    <div id="img" class="container-img ">
     <img  class="img-fluid" style="width: 100%; "  src="./image/abdi.jpg" alt="">
-    <h1 class="carousel-caption display-6  mx-auto text-center"  id="h1"><b>HI, I'M ABDULFETA DEDGEBA.</b></h1>
+    <h1 class="carousel-caption  mx-auto text-center" style="font-size: 6vw;" id="h1"><b>HI, I'M ABDULFETA DEDGEBA.</b></h1>
   </div>
   <div class="container-fluid pb-4">
     <div class="container mb-5 pb-5" style="color: #333333; font-size: 2.625em; line-height: 4.200em; letter-spacing: normal;" >
@@ -421,7 +420,7 @@
     var per = $this.attr('per');
     $this.css("width",per+'%');
     $({animatedValue: 0}).animate({animatedValue: per},{
-      duration: 100000,
+      duration: 10000,
       step: function(){
         $this.attr('per', Math.floor(this.animatedValue) + '%');
       },
