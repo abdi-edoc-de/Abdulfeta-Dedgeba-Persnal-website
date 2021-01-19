@@ -17,13 +17,7 @@
 .card{
     border: none;
 }
-#h1{
-    font-family: "proximanova-bold";
-    font-weight: 999;
-    font-size: 4.063em;
-    letter-spacing: 2.7px;
-    color: black;
-}
+
 .conta{
     padding-top: 3%;
     padding-right: 3%;
@@ -276,16 +270,60 @@
     border-radius: 2px;
   }
 
+@media(max-width:2000px){
+    #h1{
+        font-family: "proximanova-bold";
+        font-size: 400%;
+        top: 50% !important; 
+        font-weight: 999;
+        color: black;
+    }
+}
+@media(max-width:1500px){
+    #h1{
+        font-family: "proximanova-bold";
+        font-size: 300%;
+        top: 40% !important; 
+        font-weight: 999;
+        color: black;
+    }
+}
+@media(max-width:992px){
+    #h1{
+        font-family: "proximanova-bold";
+        font-size: 150% !important; 
+        top: 30% !important;
+        font-weight: 999; 
+        color: black;
+    }
+}
+@media (max-width:768px){
+    #h1{
+        font-family: "proximanova-bold";
+        font-size: 150%;
+        font-weight: 999;
+        top: 20%  !important; 
+        color: black;
+    }
+}
+@media(max-width:554px){
 
-@media(max-width:576px){
-
-.carousel-caption{
-    font-size: 150%;
+/* .carousel-caption{
+    font-size: 100%;
     text-shadow: 1px 1px 1px 10px #000;
     font-weight: bold;
-    top: 30%;
+    top: 20%;
+} */
+#h1{
+    font-family: "proximanova-bold";
+    font-size: 150%;
+    font-weight: 999;
+    top: 20%  !important; 
+    color: black;
 }
 
 }
+
+
 
   
