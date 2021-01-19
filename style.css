@@ -34,6 +34,14 @@
 .dropdown-menu{
     padding-right: 300px;
 }
+#blog{
+    text-decoration: none;
+    color: #000;
+}
+#blog:hover{
+    
+    color: gray;
+}
 .navbar-nav{
     padding-right:20px;
 }
