@@ -24,6 +24,10 @@
     letter-spacing: 2.7px;
     color: black;
 }
+.conta{
+    padding-top: 3%;
+    padding-right: 3%;
+}
 #h1.lighter {
     color: -50%;  
   }
