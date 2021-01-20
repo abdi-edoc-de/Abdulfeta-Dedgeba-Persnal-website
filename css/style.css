@@ -8,10 +8,12 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Yusei+Magic&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
   
   body {
     
-    font-family: 'proximanova';
+    proximanovafont-family: 'Montserrat', sans-serif;
+
   }
 #img{
     clip-path: polygon(0 0, 100% 0, 100% 67%, 50% 76%, 0 67%);
